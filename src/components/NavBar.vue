@@ -3,10 +3,6 @@
     <div class="main-menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"><img src="../assets/ClipartKey_1511670.png" class="image-logo" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
         </div>
       </nav>
@@ -22,6 +18,18 @@ export default {
 
 <style scoped>
 
+@media (max-width:700px){
+  .navbar-brand img {
+    float: right;
+  }
+
+}
+
+@media (min-width:1000px) {
+  .navbar-brand img {
+  }
+}
+
 .image-logo{
   height: 50px;
 }
@@ -30,12 +38,6 @@ export default {
 }
 .navbar{
   padding: 1rem 20rem ;
-}
-.nav-link{
-  font: normal 500 15px/2px var(--roboto);
-  text-transform: uppercase;
-  padding: 1.7rem;
-
 }
 
 .active a{
