@@ -6,7 +6,7 @@
           <img src="../../assets/0.jpg" alt="Modamori Oluwayomi" class="rounded-circle">
           <h1 class="name"> MODAMORI OLUWAYOMI</h1>
           <h4 class="vue2">Full-Stack Dev 💻. JavaScript. VueJS. Tailwind.</h4>
-          <p>I’m a software engineer and front end developer from Lagos, Nigeria.</p>
+          <p>I’m a software engineer and a full stack developer from Lagos, Nigeria.</p>
         </div>
       </section>
     </b-jumbotron>
